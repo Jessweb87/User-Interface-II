@@ -1,0 +1,52 @@
+/* Add CSS styling here */
+/*div{
+    border:1px solid red;*/
+body{
+    background-color:rgb(247, 211, 144);
+}
+h1{
+    font-weight: bold;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.About{
+    color: brown;
+    text-align: center;
+    text-shadow:white;
+    font-size: 15px;
+}
+nav a{
+    margin:0;
+    border:2px solid black;
+    padding:10px;
+    display:inline-block;
+    border-radius: 20px;
+    color: brown;
+    text-decoration: none;
+    text-shadow:black;
+}
+.workspace img{
+    width:40%;
+    height:40%;
+    display:flex;
+    margin:50px;
+}
+div .picture{
+    height:max-content;
+    width:min-content;
+    border-radius:20px;
+    margin:50px; 
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+}
+footer{
+    background-color: teal;
+    width: auto;
+    height:15vh;
+}
+.contact{
+    text-align: center;
+    text-shadow:black;
+    font-size: 25px;
+    padding: 20px;
+}
