@@ -30,14 +30,15 @@ nav a{
     display:flex;
     margin:50px;
 }
-div .picture{
-    height:max-content;
-    width:min-content;
+#picture{
+    border:5px solid red;
+    height:5px;
+    width: 5px;
     border-radius:20px;
-    margin:50px; 
+    margin-left:50px; 
     display: flex;
-    flex-flow: row;
-    justify-content: space-around;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 footer{
     background-color: teal;
@@ -49,4 +50,23 @@ footer{
     text-shadow:black;
     font-size: 25px;
     padding: 20px;
+}
+/*Tablet*/
+@media(max-width: 800px){
+    .About{
+        background-position: left-center;
+        text-align:center;
+    }
+    .About div{
+        width:50%;
+        margin-right: 2%;
+        margin-top:5%;
+    }
+
+}
+@media(max-width:500px){
+    .workspace{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 }
